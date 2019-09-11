@@ -5,7 +5,7 @@ import math
 numGpus = 8
 
 # number of image pairs to process
-numImgs = 60
+numImgs = 2
 
 N = int(math.ceil(float(numImgs)/numGpus))
 for j in range(1, numGpus + 1):
